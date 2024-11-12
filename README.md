@@ -1,31 +1,8 @@
 # Weather Data Analysis
-
-## Deskripsi Project
-Project ini bertujuan untuk memenuhi tugas infinite learning dengan mengambil, menyimpan, dan menganalisis data cuaca dari beberapa kota di Indonesia menggunakan API dari OpenWeatherMap. Data cuaca yang dianalisis meliputi suhu, kelembaban, dan kondisi cuaca. Analisis dilakukan menggunakan Python, dengan hasil disimpan dalam format CSV dan divisualisasikan dengan matplotlib dan seaborn.
-
-## Persyaratan
-- Python 3.x
-- Paket yang dibutuhkan:
-  - `requests`
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
+Proyek ini menggunakan data cuaca dari beberapa kota di dunia, yang diambil melalui API OpenWeatherMap. Project ini bertujuan untuk memenuhi tugas infinite learning dengan mengambil, menyimpan, dan menganalisis data cuaca dari beberapa kota di Indonesia menggunakan API dari OpenWeatherMap. Data cuaca yang dianalisis meliputi suhu, kelembaban, dan kondisi cuaca. Analisis dilakukan menggunakan Python, dengan hasil disimpan dalam format CSV dan divisualisasikan dengan matplotlib dan seaborn.
   
 ## Penggunaan API
 Proyek ini menggunakan OpenWeatherMap API untuk mengambil data cuaca dari lima kota: Jakarta, Bogor, Pamulang, Ciamis, dan Bandung. Pastikan Anda memiliki API key dari OpenWeatherMap dan ganti `api_key` dengan API key Anda.
-
-## Cara Menjalankan Kode
-1. Clone atau unduh kode ini ke komputer Anda.
-2. Pastikan semua paket yang dibutuhkan telah terinstal.
-3. Jalankan skrip Python.
-
-```python
-python weather_analysis.py
-
-# Analisis Data Cuaca dengan Python
-
-Proyek ini menggunakan data cuaca dari beberapa kota di dunia, yang diambil melalui API OpenWeatherMap. Proyek bertujuan untuk melakukan analisis data cuaca menggunakan Python dan menghasilkan berbagai visualisasi untuk membantu memahami pola cuaca.
 
 ## Tahapan Analisis
 
@@ -76,3 +53,17 @@ Proyek ini menggunakan data cuaca dari beberapa kota di dunia, yang diambil mela
 - Histogram untuk melihat distribusi suhu dalam rentang yang lebih kecil.
 
 ---
+
+## Persyaratan
+- Python 3.x
+- Paket yang dibutuhkan:
+  - `requests`
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+
+## Cara Menjalankan Kode
+1. Clone atau unduh kode ini ke komputer Anda.
+2. Pastikan semua paket yang dibutuhkan telah terinstal.
+3. Jalankan skrip Python.
